@@ -1,0 +1,4 @@
+SELECT user.id, user.firstName, user.lastName, city.city
+FROM user
+JOIN city
+ON city.id = user.city
